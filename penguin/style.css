@@ -40,8 +40,12 @@ background-color:
 
 .header-right li a
 {
- text-decoration: none;
+    text-decoration: none;
+
 }
+
+.header-right li a:link { color: black} 
+.header-right li a:visited { color: black}
 
 .header-right li a:hover{
   opacity:0.5;
