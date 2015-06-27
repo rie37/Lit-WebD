@@ -1,0 +1,190 @@
+body{
+text-align: center
+}
+div#wrapper{
+width: :800px;
+margin: 0 auto;
+text-align: left;  
+}
+
+.header
+{
+  height: 80px;
+   width: 100%;
+  font-family: 'Century Gothic', sans-serif;
+    padding-top:17px;
+        
+}
+
+.header-left
+{
+margin-left: 15%;
+float: left;
+}
+
+.header-right
+{
+background-color: 
+    
+}
+
+
+.header-right li
+{
+  float: left;
+  margin-left: 5%;
+  padding: 20px 15px;
+  list-style-type: none;
+  font-size: 13px;
+}
+
+.header-right li a
+{
+ text-decoration: none;
+}
+
+.header-right li a:hover{
+  opacity:0.5;
+　}
+    
+    
+.main
+{
+  height:auto;
+ margin-top: 80px;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+
+/*ギャラリー全体のコンテナー*/
+#main-stage {
+	position: relative;
+	max-width: 45%;
+	margin: 0 auto;
+}
+/*全サムネイルのコンテナー*/
+#thumbs {
+	margin-left:3%;
+}
+/*サムネイルの幅、ポインターを手のひら*/
+#thumbs label img {
+	width:21.7%;
+	cursor: pointer;
+    margin-top: 4%;
+    padding: 4%;
+
+}
+/*ラジオボタンを非表示に*/
+#r1, #r2, #r3, #r4, #r5, #r6 {
+	display: none;
+}
+/*表示写真の初期配置（全部透明に）とtransition設定*/
+.photo {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.photo img {
+	width:100%;
+	opacity: 0;
+	-webkit-transition: opacity 1s ease;
+	transition: opacity 1s ease;
+}
+/*チェックされたサムネイルに相当する写真だけを表示*/
+#r1:checked ~ #photo1 img, #r2:checked ~ #photo2 img, #r3:checked ~ #photo3 img, #r4:checked ~ #photo4 img, #r5:checked ~ #photo5 img, #r6:checked ~ #photo6 img {
+	opacity: 1;
+}
+
+
+
+.footer
+{
+  height: 100px;
+  font-family: 'Century Gothic', sans-serif;
+  margin-right: 5%;
+  margin-top: 10%;
+}
+
+
+.footer-left li
+{
+  
+  float: right;
+  margin-right: 2%;
+  padding: 15px 15px;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 11px;
+}
+
+.footer-left li a
+{
+  
+  text-decoration: none;
+ 
+}
+
+.footer-left li a:hover{
+  opacity:0.5;
+　}
+
+h1{font-size: 160%; margin-top: 6%}
+h2{font-size: 100%; margin-top: 3%}
+h3{font-size: 80%}
+
+
+#page-top{
+	width:50px;
+	height:50px;
+	display:none;
+	position:fixed;
+	right:16px;
+	bottom:16px;
+}
+ 
+#page-top p{
+	margin:0;
+	padding:0;
+	text-align:center;
+	background:#3b3b3b;
+	-webkit-transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	transition:all 0.3s;
+}
+ 
+#page-top p:hover{
+	background:#8b8b8b;
+}
+ 
+#move-page-top{
+	color:#fff;
+	line-height:50px;
+	text-decoration:none;
+	display:block;
+	cursor:pointer;
+}
+
+
+
+
+/*ここから、index2（＾＾）*/
+
+.main2{
+width: :900px;
+margin: 0 auto;
+margin-top: 15%;   
+}
+
+.main2 p{
+margin-top: 5%;
+font-family: sans-serif; 
+font-size: 11px;
+opacity: 0.6;
+}
+
+.main2 p:hover{
+margin-top: 5%;
+font-family: sans-serif; 
+font-size: 11px;
+opacity: 0.9;
+}
