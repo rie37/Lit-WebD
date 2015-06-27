@@ -136,7 +136,7 @@ h3{font-size: 80%}
 #page-top{
 	width:50px;
 	height:50px;
-	display:none;
+	display:block;
 	position:fixed;
 	right:16px;
 	bottom:16px;
@@ -172,7 +172,7 @@ h3{font-size: 80%}
 .main2{
 width: :900px;
 margin: 0 auto;
-margin-top: 15%;   
+margin-top: 7%;   
 }
 
 .main2 p{
