@@ -103,7 +103,11 @@ background-color:
 h1{font-size: 160%; margin-top: 6%}
 h2{font-size: 100%; margin-top: 3%}
 h3{font-size: 80%}
-
+h3 a {text-decoration: none;
+font-size: 100%;
+color:black}
+h3 a:hover{
+opacity: 0.5;}
 
 #page-top{
 	width:50px;
@@ -170,27 +174,27 @@ h3{font-size: 80%}
 }
 #box4 {
 	position:absolute;
-	left:5px; top:182px;
+	left:5px; top:180px;
 }
 #box5 {
 	position:absolute;
-	left:220px; top:182px;
+	left:220px; top:180px;
 }
 #box6 {
 	position:absolute;
-	left:435px; top:182px;
+	left:435px; top:180px;
 }
 #box7 {
 	position:absolute;
-	left:5px; top:324px;
+	left:5px; top:321px;
 }
 #box8 {
 	position:absolute;
-	left:220px; top:324px;
+	left:220px; top:321px;
 }
 #box9 {
 	position:absolute;
-	left:435px; top:324px;
+	left:435px; top:321px;
 }
 
 #box1 a{
