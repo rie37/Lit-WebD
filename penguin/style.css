@@ -96,7 +96,7 @@ background-color:
 	transition: opacity 1s ease;
 }
 /*チェックされたサムネイルに相当する写真だけを表示*/
-#r1:checked ~ #photo1 img, #r2:checked ~ #photo2 img, #r3:checked ~ #photo3 img, #r4:checked ~ #photo4 img, #r5:checked ~ #photo5 img {
+#r1:checked ~ #photo1 img, #r2:checked ~ #photo2 img, #r3:checked ~ #photo3 img, #r4:checked ~ #photo4 img, #r5:checked ~ #photo5 img, #r6:checked ~ #photo6 img {
 	opacity: 1;
 }
 
@@ -130,6 +130,7 @@ background-color:
 {
   
   text-decoration: none;
+    color: black;
  
 }
 

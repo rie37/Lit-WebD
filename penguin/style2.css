@@ -92,6 +92,7 @@ background-color:
 {
   
   text-decoration: none;
+    color: black;
  
 }
 
@@ -192,6 +193,7 @@ h3{font-size: 80%}
 
 #box1 a{
     text-decoration: none;
+    color: black;
 font-size: 13px;
     display:block;
     padding: 45px;
@@ -199,30 +201,35 @@ font-size: 13px;
 
 #box2 a{
     text-decoration: none;
+    color: black;
 font-size: 13px;
     display:block;
     padding: 45px;
 }
 #box3 a{
 text-decoration: none;
+    color: black;
 font-size: 13px;
 display:block;
     padding: 45px;
 }
 #box4 a{
     text-decoration: none;
+    color: black;
 font-size: 13px;
     display:block;
     padding: 45px;
 }
 #box5 a{
     text-decoration: none;
+    color: black;
 font-size: 13px;
     display:block;
     padding: 45px;
 }
 #box6 a{
     text-decoration: none;
+    color: black;
 font-size: 13px;
     display:block;
     padding: 45px;
@@ -313,16 +320,17 @@ opacity: 1;
 	z-index:-1;
     opacity:0;
     transition: opacity 1s ease;
-    width: 630px;
+    width:900px;height: 390px;
 
 }
 
 /* クリックされたサムネイルに該当する拡大写真の不透明度を1に */
 .photo:target {
     top:42px;left:5px;
-    width:　630px;
+    width: 630px;
 	z-index:100;
     opacity:1;
+    width:900px;height: 390px;
     
     }
 .cls {
