@@ -57,6 +57,8 @@ background-color:
   height:auto;
  margin-top: 80px;
   font-family: 'Century Gothic', sans-serif;
+    position: relative;
+    overflow: hidden;
 }
 
 
@@ -333,3 +335,48 @@ opacity: 1;
     color:#fff;
     font-weight:bold;   
 }
+
+h1{font-size: 160%; margin-top: 6%}
+h2{font-size: 100%; margin-top: 10%;}
+h3{font-size: 80%; margin-top: 8%}
+h4{font-size: 70%; }
+
+.main ul
+{
+text-align: center;
+
+}
+
+.main ul li
+{
+  display: -moz-inline-box;
+
+  display: inline-block;
+  /display: inline;
+  /zoom: 1;
+  padding-right: 10px;
+    font-size: 13px;
+padding-left: 1%;
+padding-right: 4%;
+}
+
+.main li a
+{
+    text-decoration: none;
+
+}
+
+.main li a:link { color: black} 
+.header-right li a:visited { color: black}
+
+.main li a:hover{
+  opacity:0.5;
+　}
+
+#main-stage{
+
+	max-width: 70%;
+	margin: 0 auto;
+    margin-top:4%;
+}
+    
