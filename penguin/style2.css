@@ -126,14 +126,16 @@ h3{font-size: 80%}
  
 #page-top p:hover{
 	background:#8b8b8b;
+    opacity:1;
 }
  
 #move-page-top{
 	color:#fff;
-	line-height:50px;
+	line-height:45px;
 	text-decoration:none;
 	display:block;
 	cursor:pointer;
+    opacity:0.8;
 }
 
 
@@ -320,7 +322,7 @@ opacity: 1;
 	z-index:-1;
     opacity:0;
     transition: opacity 1s ease;
-    width:900px;height: 390px;
+    width:630px;height: 400px;
 
 }
 
@@ -330,12 +332,12 @@ opacity: 1;
     width: 630px;
 	z-index:100;
     opacity:1;
-    width:900px;height: 390px;
+    width:630px;height: 400px;
     
     }
 .cls {
     position:absolute;
-    top:10px;
+    top:360px;
     left:570px;
 }
 .cls a {
